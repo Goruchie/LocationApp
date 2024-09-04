@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Collections.Specialized.BitVector32;
 
 namespace domain
 {
@@ -30,5 +31,12 @@ namespace domain
 
             return list;
         }
+        //public void delete(int id)
+        //{
+        //    AdressService service = new AdressService();
+        //    Session.Add("addressList", service.list());
+
+        //    list.RemoveAt(id);
+        //}
     }
 }
